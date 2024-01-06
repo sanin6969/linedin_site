@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0 16px 0;
+    margin: auto;
+    max-width: 1128px;
+}
+.left{
+    display: flex;
+    align-items: center;   
+    justify-content: space-around;
+    margin: auto;
+}
+.logotext{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(72, 72, 253); 
+}
+.right{
+    display: flex;
+    margin:auto;
+     align-items: center; 
+    justify-content: flex-end;
+     gap: 20px; 
+     
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: smaller;
+    opacity: .7;
+}
+.list:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+
+}
+.joinnow{
+    border-radius:30px;
+height: 50px;
+width: 100px;
+background-color: white;
+border: none;
+opacity: .8;
+}
+.joinnow:hover{
+    background-color: rgb(242, 239, 239);
+    opacity: 1;
+    cursor: pointer;
+}
+.signin1{
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    color: blue;
+    border:1px solid blue;
+    opacity: .7;
+    font-weight: bold;
+}
+.signin1:hover{
+    background-color: rgb(244, 254, 254);
+    opacity: 1;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1128px;
+    margin: auto;
+}
+.right1{
+    width: 50%;
+    margin-left: 100px;  
+}
+h1{
+    font-family:  'Segoe UI',  'Helvetica Neue', 'Fira Sans',  'Oxygen Sans', Cantarell, 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(176, 78, 9);
+}
+span1{
+    padding: 0 5px;
+}
+
+form{
+    text-transform: capitalize;
+    margin:5px 0;
+    font-family:  'Segoe UI','Helvetica Neue', 'Fira Sans', 'Oxygen Sans', Cantarell, 'Droid Sans',  'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: smaller;
+}
+.form a{
+    text-decoration: none;
+    font-size: smaller;
+    color:rgb(33, 33, 240) ;
+}
+.form a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+input{
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    margin:5px 0;
+    border: 1px solid;
+}
+input:hover{
+    border: 2px solid ;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+
+
+}
+.signin{
+    width: 270px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(33, 33, 240);
+    color: white;
+    margin:5px 0;
+    opacity: .8;
+    border: none;
+    font-size: smaller;
+}
+.signin:hover{
+    opacity: 1;
+    cursor: pointer;
+
+}
+.button{
+    margin:5px 0;
+    width: 270px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: smaller;
+    opacity: .8;
+}
+.button:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+ }
+.button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+#hi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right2{
+    display: flex;
+    align-items: center;
+}
+hr{
+    width: 120px;
+    height: 1px;
+}
+.htext a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family:  'Segoe UI','Helvetica Neue', 'Fira Sans', 'Oxygen Sans', Cantarell, 'Droid Sans',  'Lucida Grande', Helvetica, Arial, sans-serif;
+   color: rgb(86, 86, 250);
+}
+.htext{
+    font-size: x-small;
+    width: 270px;
+    opacity: .9;
+}
+.left1{
+    width: 50%;
+    display: flex;
+}
+::placeholder{
+    text-align: end;
+    color: blue;
+    padding-right: 5px;
+}
